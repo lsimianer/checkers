@@ -1,0 +1,54 @@
+body {
+    font-size: x-large;
+}
+.fixed{
+    position: sticky;
+}
+
+.center {
+    text-align: center;
+}
+
+#controlBtnBlock {
+    display: flex;
+    justify-content: center;
+}
+
+#introText {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.ctrlBtn {
+    margin: 5% 2% 0 2%;
+    height: 8rem;
+    width: 12rem;
+    font-size: 2rem;
+    border: 2mm ridge rgb(0, 0, 0);
+
+}
+
+.ctrlBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+#pageContent {
+    margin-top: 5%;
+}
+.bottom{
+    margin-bottom: 10%;
+}
+
+/* global style from controllers */
+
+.border {
+    border: 2mm ridge rgba(0, 14, 141, 0.795);
+}
+.biggerText{
+    font-size: 10rem;
+}
+.Contrast{
+    background: black;
+    color: white;
+}
